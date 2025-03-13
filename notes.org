@@ -2,9 +2,15 @@
 Internationalization and localization.
 I'm using _perl_ to work on these puzzles, so my notes will reflect that.
 
-** Basics
+** Language
+*** Basics
 - utf8 option to the open pragma allows most magical IO in perl to use the utf8 read/write options...
 - perldoc unitut, uniintro
 - Encode
 
   
+** Time
+*** Basics
+The builtin ~Time::~ do not seem to be of much use.
+I am trying out the datetime module.
+~DateTime~ for epoch calculation, and ~DateTime::Format::Strptime~ for parsing.
